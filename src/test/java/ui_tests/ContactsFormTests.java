@@ -20,10 +20,21 @@ public class ContactsFormTests extends AppManager {
     public void setMainPage() {
         mainPage = new MainPage(getDriver());
     }
-
-    // TC ID 1
+    // TC id f_1 smoke
+    @Test(groups = {"smoke"})
+    public void createContactPositiveTest() {
+        Contact contact = Contact.builder()
+                .fullName(" Москва-Alexander-Arnold O'Connor ")
+                .phoneNumber("+391514790514766 ")
+                .build();
+        mainPage.typeContactForm(contact);
+        mainPage.clickBtnSubmit();
+        Assert.assertTrue(mainPage.validateTextInResultMessagePresent
+                ("success"), "Expected Result message to have text 'success'");
+    }
+    // TC ID f_1 with parameters
     @Test(dataProvider = "dataProviderPositive", dataProviderClass = ContactDataProvider.class)
-    public void createContactPositiveTest(Contact contact) {
+    public void createContactPositiveTestParameters(Contact contact) {
         mainPage.typeContactForm(contact);
         mainPage.clickBtnSubmit();
         Assert.assertTrue(mainPage.validateTextInResultMessagePresent

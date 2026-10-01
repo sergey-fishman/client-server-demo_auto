@@ -34,7 +34,7 @@ public class AppManager {
         driver = new EventFiringDecorator<>(listener).decorate(driver);
     }
 
-    @AfterMethod()
+    @AfterMethod(alwaysRun = true)
     public void teardown() {
         if (driver != null)
             driver.quit();

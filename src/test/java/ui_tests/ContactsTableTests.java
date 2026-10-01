@@ -23,9 +23,22 @@ public class ContactsTableTests extends AppManager {
         mainPage.clickContactsLink();
         contactsPage = new ContactsPage(getDriver());
     }
+    // TC id t_1 smoke
+    @Test(groups = {"smoke"})
+    public void updateContactPositiveTest() {
+        Contact contact = Contact.builder()
+                .fullName(" Москва-Alexander-Arnold O'Connor ")
+                .phoneNumber("+391514790514766 ")
+                .build();
+        contactsPage.clickBtnEdit();
+        contactsPage.typeInputFields(contact);
+        contactsPage.clickBtnSave();
+        Assert.assertTrue(contactsPage.isTextInContactsMessagePresent("Changes saved"),
+                "'Changes saved' is present");
+    }
     // TC ID t_1 with parameters
     @Test(dataProvider = "dataProviderPositive", dataProviderClass = ContactDataProvider.class)
-    public void updateContactPositiveTest(Contact contact) {
+    public void updateContactPositiveTestParameters(Contact contact) {
         contactsPage.clickBtnEdit();
         contactsPage.typeInputFields(contact);
         contactsPage.clickBtnSave();
@@ -33,7 +46,7 @@ public class ContactsTableTests extends AppManager {
                 "'Changes saved' is present");
     }
     // TC ID t_2
-    @Test
+    @Test(groups = {"smoke"})
     public void deleteContactPositiveTest() {
         contactsPage.clickBtnDelete();
         contactsPage.getAlert().accept();

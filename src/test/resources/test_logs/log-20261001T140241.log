@@ -1,0 +1,12 @@
+14:02:42.106 [Test worker] INFO  utils.TestNGListener - Gradle test start at Thu Oct 01 14:02:42 IDT 2026
+14:02:43.736 [Test worker] INFO  utils.TestNGListener - start test -> createContactPositiveTest
+14:02:43.766 [Test worker] INFO  utils.WDListener - After find: locator By.id: fullName; driver: ChromeDriver: chrome on windows (2a6560df3bc38b5eec4155114a665bf9)
+14:02:43.831 [Test worker] INFO  utils.WDListener - User sendKeys for element: input, type: [ Москва-Alexander-Arnold O'Connor ]
+14:02:43.863 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='tel']; driver: ChromeDriver: chrome on windows (2a6560df3bc38b5eec4155114a665bf9)
+14:02:43.919 [Test worker] INFO  utils.WDListener - User sendKeys for element: input, type: [+391514790514766 ]
+14:02:43.928 [Test worker] INFO  utils.WDListener - After find: locator By.xpath: //button[@type='submit']; driver: ChromeDriver: chrome on windows (2a6560df3bc38b5eec4155114a665bf9)
+14:02:43.928 [Test worker] INFO  utils.WDListener - Before click element: [[ChromeDriver: chrome on windows (2a6560df3bc38b5eec4155114a665bf9)] -> xpath: //button[@type='submit']]
+14:02:43.989 [Test worker] INFO  utils.WDListener - After find: locator By.id: result; driver: ChromeDriver: chrome on windows (2a6560df3bc38b5eec4155114a665bf9)
+14:02:43.991 [Test worker] INFO  utils.TestNGListener - test success -> createContactPositiveTest
+14:02:44.007 [Test worker] INFO  utils.WDListener - Before quit driver: F21554030B5966C573566AEE7DE83D24
+14:02:44.146 [Test worker] INFO  utils.TestNGListener - Gradle test finished at Thu Oct 01 14:02:44 IDT 2026
