@@ -65,7 +65,7 @@ public class ContactDataProvider {
             while (line != null) {
                 String[] parameters = line.split(",");
                 contactList.add(Contact.builder()
-                        .fullName("Alex Jones O'Connor")
+                        .fullName("Joe")
                         .phoneNumber(parameters[1])
                         .build());
                 line = bufferedReader.readLine();
