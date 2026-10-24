@@ -21,8 +21,8 @@ public class ContactDataProvider {
             while (line != null) {
                 String[] parameters = line.split(",");
                 contactList.add(Contact.builder()
-                        .fullName(parameters[0])
-                        .phoneNumber(parameters[1])
+                        .full_name(parameters[0])
+                        .phone_number(parameters[1])
                         .build());
                 line = bufferedReader.readLine();
             }
@@ -43,8 +43,8 @@ public class ContactDataProvider {
             while (line != null) {
                 String[] parameters = line.split(",");
                 contactList.add(Contact.builder()
-                        .fullName(parameters[0])
-                        .phoneNumber(parameters[1])
+                        .full_name(parameters[0])
+                        .phone_number(parameters[1])
                         .build());
                 line = bufferedReader.readLine();
             }
@@ -65,8 +65,8 @@ public class ContactDataProvider {
             while (line != null) {
                 String[] parameters = line.split(",");
                 contactList.add(Contact.builder()
-                        .fullName("Joe")
-                        .phoneNumber(parameters[1])
+                        .full_name("Joe")
+                        .phone_number(parameters[1])
                         .build());
                 line = bufferedReader.readLine();
             }

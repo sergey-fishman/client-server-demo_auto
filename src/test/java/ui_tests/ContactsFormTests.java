@@ -25,8 +25,8 @@ public class ContactsFormTests extends AppManager {
     @Test(groups = {"smoke"})
     public void createContactPositiveTest() {
         Contact contact = Contact.builder()
-                .fullName("Jo")
-                .phoneNumber("+7015147")
+                .full_name("Jo")
+                .phone_number("+7015147")
                 .build();
         mainPage.typeContactForm(contact);
         mainPage.clickBtnSubmit();
@@ -47,8 +47,8 @@ public class ContactsFormTests extends AppManager {
     @Test(groups = {"smoke"})
     public void createContactWithTrimCheckPositiveTest() {
         Contact contact = Contact.builder()
-                .fullName(" AlexanderArnoldJeffersonOConnorMcGregorTheodorLincolnRoosevt ")
-                .phoneNumber(" +291514791514766 ")
+                .full_name(" AlexanderArnoldJeffersonOConnorMcGregorTheodorLincolnRoosevt ")
+                .phone_number(" +291514791514766 ")
                 .build();
         mainPage.typeContactForm(contact);
         mainPage.clickBtnSubmit();
@@ -60,9 +60,9 @@ public class ContactsFormTests extends AppManager {
     @Test
     public void createContactEmptyNameNegativeTest() {
         Contact contact = Contact.builder()
-                .fullName("").
-                phoneNumber("+2015147666").
-                build();
+                .full_name("")
+                .phone_number("+2015147666")
+                .build();
         mainPage.typeContactForm(contact);
         mainPage.clickBtnSubmit();
         softAssert.assertTrue(mainPage.validateNamePopupIsDisplayed(),
@@ -76,7 +76,9 @@ public class ContactsFormTests extends AppManager {
     @Test
     public void createContactEmptyPhoneNegativeTest() {
         Contact contact = Contact.builder()
-                .fullName("Joe").phoneNumber("").build();
+                .full_name("Joe")
+                .phone_number("")
+                .build();
         mainPage.typeContactForm(contact);
         mainPage.clickBtnSubmit();
         softAssert.assertTrue(mainPage.validatePhoneNumberPopupIsDisplayed(),
@@ -101,7 +103,7 @@ public class ContactsFormTests extends AppManager {
     @Test
     public void createContactTooShortNameNegativeTest() {
         Contact contact = Contact.builder()
-                .fullName("J").phoneNumber("+2015147666").build();
+                .full_name("J").phone_number("+2015147666").build();
         mainPage.typeContactForm(contact);
         mainPage.clickBtnSubmit();
         softAssert.assertTrue(mainPage.validateTextInNamePopupIsPresent
@@ -113,8 +115,8 @@ public class ContactsFormTests extends AppManager {
     @Test
     public void createContactTooLongNameNegativeTest() {
         Contact contact = Contact.builder()
-                .fullName("AlexanderArnoldJeffersonOConnorMcGregorTheodorLincolnRoosevet")
-                .phoneNumber("+2015147666").build();
+                .full_name("AlexanderArnoldJeffersonOConnorMcGregorTheodorLincolnRoosevet")
+                .phone_number("+2015147666").build();
         mainPage.typeContactForm(contact);
         mainPage.clickBtnSubmit();
         softAssert.assertTrue(mainPage.validateTextInNamePopupIsPresent

@@ -40,9 +40,9 @@ public class ContactsPage extends BasePage {
 
     public void typeInputFields(Contact contact) {
         inputName.clear();
-        inputName.sendKeys(contact.getFullName());
+        inputName.sendKeys(contact.getFull_name());
         inputPhone.clear();
-        inputPhone.sendKeys(contact.getPhoneNumber());
+        inputPhone.sendKeys(contact.getPhone_number());
     }
 
     public void clickBtnSave() {

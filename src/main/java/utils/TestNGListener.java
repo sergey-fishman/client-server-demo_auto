@@ -38,14 +38,21 @@ public class TestNGListener implements ITestListener {
             logger.error("Test failed: {}, Status: {}",
                     result.getName(), result.getStatus());
 
-        this.driver = ((AppManager) result.getInstance()).getDriver();
-        Screenshot.takeScreenshot((TakesScreenshot) driver);
+        Object instance = result.getInstance();
+        if (instance instanceof AppManager appManager) {
+            WebDriver driver = appManager.getDriver();
+            if (driver != null) {
+                Screenshot.takeScreenshot((TakesScreenshot) driver);
+            }
+        }
     }
 
     @Override
     public void onTestSkipped(ITestResult result) {
         ITestListener.super.onTestSkipped(result);
-        logger.warn("test skipped -> {}, SkipCause: {}", result.getName(),result.getSkipCausedBy());
+        Throwable t = result.getThrowable();
+        logger.warn("test skipped -> {}{}", result.getName(),
+                t != null ? ", reason: " + t : "");
     }
 
     @Override

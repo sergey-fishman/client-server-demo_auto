@@ -35,8 +35,8 @@ public class MainPage extends BasePage {
     }
 
     public void typeContactForm(Contact contact) {
-        inputFullName.sendKeys(contact.getFullName());
-        inputPhoneNumber.sendKeys(contact.getPhoneNumber());
+        inputFullName.sendKeys(contact.getFull_name());
+        inputPhoneNumber.sendKeys(contact.getPhone_number());
     }
 
     public void clickBtnSubmit() {

@@ -10,6 +10,7 @@ import lombok.*;
 @NoArgsConstructor
 
 public class Contact {
-    private String fullName;
-    private String phoneNumber;
+    private String id;
+    private String full_name;
+    private String phone_number;
 }

@@ -1,6 +1,7 @@
 package ui_tests;
 
 import data_providers.ContactDataProvider;
+import data_providers.UpdatedDataProvider;
 import dto.Contact;
 import manager.AppManager;
 import org.testng.Assert;
@@ -28,8 +29,8 @@ public class ContactsTableTests extends AppManager {
     @Test(groups = {"smoke"})
     public void updateContactPositiveTest() {
         Contact contact = Contact.builder()
-                .fullName("Joe")
-                .phoneNumber("+391514791514760")
+                .full_name("Joe")
+                .phone_number("+391514791514760")
                 .build();
         contactsPage.clickBtnEdit();
         contactsPage.typeInputFields(contact);
@@ -61,8 +62,8 @@ public class ContactsTableTests extends AppManager {
     @Test
     public void updateContactEmptyNameNegativeTest() {
         Contact contact = Contact.builder()
-                .fullName("")
-                .phoneNumber("+391514091514766")
+                .full_name("")
+                .phone_number("+391514091514766")
                 .build();
         contactsPage.clickBtnEdit();
         contactsPage.typeInputFields(contact);
@@ -75,8 +76,8 @@ public class ContactsTableTests extends AppManager {
     @Test
     public void updateContactEmptyPhoneNegativeTest() {
         Contact contact = Contact.builder()
-                .fullName("Joe")
-                .phoneNumber("")
+                .full_name("Joe")
+                .phone_number("")
                 .build();
         contactsPage.clickBtnEdit();
         contactsPage.typeInputFields(contact);
@@ -89,8 +90,8 @@ public class ContactsTableTests extends AppManager {
     @Test
     public void updateContactEmptyFieldsNegativeTest() {
         Contact contact = Contact.builder()
-                .fullName("")
-                .phoneNumber("")
+                .full_name("")
+                .phone_number("")
                 .build();
         contactsPage.clickBtnEdit();
         contactsPage.typeInputFields(contact);
@@ -103,8 +104,8 @@ public class ContactsTableTests extends AppManager {
     @Test
     public void updateContactShortNameNegativeTest() {
         Contact contact = Contact.builder()
-                .fullName("J")
-                .phoneNumber("+391514091514766")
+                .full_name("J")
+                .phone_number("+391514091514766")
                 .build();
         contactsPage.clickBtnEdit();
         contactsPage.typeInputFields(contact);
@@ -117,8 +118,8 @@ public class ContactsTableTests extends AppManager {
     @Test
     public void updateContactLongNameNegativeTest() {
         Contact contact = Contact.builder()
-                .fullName("AlexanderArnoldJeffersonOConnorMcGregorTheodorLincolnRoosevet")
-                .phoneNumber("+391514091514766")
+                .full_name("AlexanderArnoldJeffersonOConnorMcGregorTheodorLincolnRoosevet")
+                .phone_number("+391514091514766")
                 .build();
         contactsPage.clickBtnEdit();
         contactsPage.typeInputFields(contact);
@@ -138,7 +139,7 @@ public class ContactsTableTests extends AppManager {
     }
 
     // TC-15 Contact update invalid phone number format w/ parameters
-    @Test(dataProvider = "dataProviderNegativePhone", dataProviderClass = ContactDataProvider.class)
+    @Test(dataProvider = "dataProviderNegativePhone", dataProviderClass = UpdatedDataProvider.class)
     public void updateContactInvalidPhonesNegativeTest(Contact contact) {
         contactsPage.clickBtnEdit();
         contactsPage.typeInputFields(contact);
