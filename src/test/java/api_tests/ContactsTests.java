@@ -3,6 +3,7 @@ package api_tests;
 import controllers.ContactsController;
 import data_providers.UpdatedDataProvider;
 import dto.*;
+import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import org.testng.Assert;
 import org.testng.annotations.Listeners;
@@ -14,6 +15,7 @@ import static utils.ContactFactory.*;
 import utils.TestNGListener;
 
 import java.util.Arrays;
+import java.util.Random;
 
 @Listeners(TestNGListener.class)
 
@@ -45,6 +47,12 @@ public class ContactsTests extends ContactsController {
         Response response = getContactsByPath(BASE_URL + "/api/contact.php");
         Assert.assertEquals(response.getStatusCode(), 404,
                 "Status code is 404");
+    }
+
+    @Test
+    public void getContactsMethodNotAllowedNegativeTest() {
+        Response response = getContactsCustomMethod("options");
+        Assert.assertEquals(response.getStatusCode(), 405);
     }
 
     @Test
@@ -135,19 +143,20 @@ public class ContactsTests extends ContactsController {
         softAssert.assertEquals(createResponse.getStatusCode(), 201,
                 "Contact created with status code 201");
 
-        Integer id = createResponse.getBody().as(SuccessMessageDto.class).getId();
+        Integer id = createResponse.getBody().as(SuccessMessageDto.class).getId(); //id of the created contact
         Response updateResponse = updateContactById(contact, id);
         UpdateMessageDto message = updateResponse.getBody().as(UpdateMessageDto.class);
         softAssert.assertEquals(updateResponse.getStatusCode(), 200, "Status code 200");
 
-        String updatedId = String.valueOf(message.getId());
-        ContactsMessageDto contacts = getContacts().getBody().as(ContactsMessageDto.class);
+        String updatedId = String.valueOf(message.getId()); // id of the updated contact
+        ContactsMessageDto contacts = getContacts().getBody().as(ContactsMessageDto.class); // contacts list
 
-        Contact updated = Arrays.stream(contacts.getContacts())
+        Contact updated = Arrays.stream(contacts.getContacts())// finds first record with the id of the updated contact
                 .filter(c -> updatedId.equals(c.getId()))
                 .findFirst()
                 .orElse(null);
-
+        // if the updated contact is found, its values are compared to request values from the data provider
+        // thus we validate data integrity
         softAssert.assertNotNull(updated, "Updated contact is present in the list by id " + updatedId);
         if (updatedId != null) {
             softAssert.assertEquals(updated.getFull_name(), contact.getFull_name().trim(), "full_name matches");
@@ -175,7 +184,7 @@ public class ContactsTests extends ContactsController {
         Response response = createNewContact(contact);
         softAssert.assertEquals(response.getStatusCode(), 422, "Status code 422");
         ErrorMissingFieldsDto error = response.getBody().as(ErrorMissingFieldsDto.class);
-        softAssert.assertEquals(error.getMissing_fields(), new String[] {"full_name", "phone_number"});
+        softAssert.assertEquals(error.getMissing_fields(), new String[]{"full_name", "phone_number"});
         softAssert.assertAll();
     }
 
@@ -205,14 +214,193 @@ public class ContactsTests extends ContactsController {
     }
 
     @Test
-    public void createContactWrongValuesTypeNegativeTest(){
+    public void createContactWrongValuesTypeNegativeTest() {
         String body = """
-        {
-            "full_name": {"AlexanderArnold": "value"},
-            "phone_number": 915147222
-        }
-        """;
+                {
+                    "full_name": {"AlexanderArnold": "value"},
+                    "phone_number": 915147222
+                }
+                """;
         Response response = createNewContactWithRawJson(body);
         Assert.assertEquals(response.getStatusCode(), 422);
+    }
+
+    @Test
+    public void createContactNotJsonObjectNegativeTest() {
+        String body = """
+                [
+                    {
+                        "full_name": {"AlexanderArnold": "value"},
+                        "phone_number": 915147222
+                    }
+                ]
+                """;
+        Response response = createNewContactWithRawJson(body);
+        Assert.assertEquals(response.getStatusCode(), 422);
+    }
+
+    @Test
+    public void createContactInvalidJsonObjectNegativeTest() {
+        String body = """
+                {
+                    "full_name": AlexanderArnold",
+                    "phone_number": +915147222222
+                
+                """;
+        Response response = createNewContactWithRawJson(body);
+        Assert.assertEquals(response.getStatusCode(), 400);
+    }
+
+    @Test
+    public void createContactInvalidContentTypeNegativeTest() {
+        Response response = createNewContactCustomContentType(positiveContact(), ContentType.XML);
+        Assert.assertEquals(response.getStatusCode(), 415);
+    }
+
+    @Test
+    public void updateContactInvalidContentTypeNegativeTest() {
+        Response createResponse = createNewContact(positiveContact());
+        softAssert.assertEquals(createResponse.getStatusCode(), 201,
+                "Contact created with status code 201");
+        Integer id = createResponse.getBody().as(SuccessMessageDto.class).getId();
+        Response response = updateContactCustomContentType(positiveContact(), ContentType.TEXT, id);
+        softAssert.assertEquals(response.getStatusCode(), 415);
+        softAssert.assertAll();
+    }
+
+    @Test
+    public void updateContactInvalidJsonObjectNegativeTest() {
+        Response createResponse = createNewContact(positiveContact());
+        softAssert.assertEquals(createResponse.getStatusCode(), 201,
+                "Contact created with status code 201");
+        Integer id = createResponse.getBody().as(SuccessMessageDto.class).getId();
+        String body = """
+                {
+                    "full_name": AlexanderArnold",
+                    "phone_number" +915147222222
+                }
+                """;
+        Response response = updateContactWithRawJson(body, id);
+        softAssert.assertEquals(response.getStatusCode(), 400);
+        softAssert.assertAll();
+    }
+
+    @Test
+    public void updateContactEmptyNameNegativeTest() {
+        Response createResponse = createNewContact(positiveContact());
+        softAssert.assertEquals(createResponse.getStatusCode(), 201,
+                "Contact created with status code 201");
+        Integer id = createResponse.getBody().as(SuccessMessageDto.class).getId();
+        Contact contact = Contact.builder()
+                .full_name("")
+                .phone_number("+74953940124")
+                .build();
+        Response response = updateContactById(contact, id);
+        ErrorDto errorDto = response.getBody().as(ErrorDto.class);
+        softAssert.assertEquals(response.getStatusCode(), 422, "Status code 422");
+        softAssert.assertEquals(errorDto.getError(), "Input fields cannot be empty");
+        softAssert.assertAll();
+    }
+
+    @Test
+    public void updateContactEmptyPhoneNegativeTest() {
+        Response createResponse = createNewContact(positiveContact());
+        softAssert.assertEquals(createResponse.getStatusCode(), 201,
+                "Contact created with status code 201");
+        Integer id = createResponse.getBody().as(SuccessMessageDto.class).getId();
+        Contact contact = Contact.builder()
+                .full_name("Alex")
+                .phone_number("")
+                .build();
+        Response response = updateContactById(contact, id);
+        ErrorDto errorDto = response.getBody().as(ErrorDto.class);
+        softAssert.assertEquals(response.getStatusCode(), 422, "Status code 422");
+        softAssert.assertEquals(errorDto.getError(), "Input fields cannot be empty");
+        softAssert.assertAll();
+    }
+
+    @Test
+    public void updateContactNullValuesNegativeTest() {
+        Response createResponse = createNewContact(positiveContact());
+        softAssert.assertEquals(createResponse.getStatusCode(), 201,
+                "Contact created with status code 201");
+        Integer id = createResponse.getBody().as(SuccessMessageDto.class).getId();
+        Contact contact = Contact.builder()
+                .build();
+        Response response = updateContactById(contact, id);
+        softAssert.assertEquals(response.getStatusCode(), 422, "Status code 422");
+        ErrorMissingFieldsDto error = response.getBody().as(ErrorMissingFieldsDto.class);
+        softAssert.assertEquals(error.getMissing_fields(), new String[]{"full_name", "phone_number"});
+        softAssert.assertAll();
+    }
+
+    @Test(dataProvider = "dataProviderWrongName", dataProviderClass = UpdatedDataProvider.class)
+    public void updateContactWrongNameNegativeTest(Contact contact) {
+        softAssert = new SoftAssert();
+        Response createResponse = createNewContact(positiveContact());
+        softAssert.assertEquals(createResponse.getStatusCode(), 201,
+                "Contact created with status code 201");
+        Integer id = createResponse.getBody().as(SuccessMessageDto.class).getId();
+        Response response = updateContactById(contact, id);
+        softAssert.assertEquals(response.getStatusCode(), 422, "Status code 422");
+        softAssert.assertAll();
+    }
+
+    @Test(dataProvider = "dataProviderWrongPhone", dataProviderClass = UpdatedDataProvider.class)
+    public void updateContactWrongPhoneNegativeTest(Contact contact) {
+        softAssert = new SoftAssert();
+        Response createResponse = createNewContact(positiveContact());
+        softAssert.assertEquals(createResponse.getStatusCode(), 201,
+                "Contact created with status code 201");
+        Integer id = createResponse.getBody().as(SuccessMessageDto.class).getId();
+        Response response = updateContactById(contact, id);
+        softAssert.assertEquals(response.getStatusCode(), 422, "Status code 422");
+        softAssert.assertAll();
+    }
+
+    @Test
+    public void updateContactInvalidQueryParamNegativeTest() {
+        Response response = updateContactById(positiveContact(), 0);
+        Assert.assertEquals(response.getStatusCode(), 422);
+    }
+
+    @Test
+    public void deleteContactInvalidQueryParamNegativeTest() {
+        Response response = deleteContactById(0);
+        Assert.assertEquals(response.getStatusCode(), 422);
+    }
+
+    @Test
+    public void updateContactIdNotFoundNegativeTest() {
+        Response response = getContacts();
+        softAssert.assertEquals(response.getStatusCode(), 200, "Get response code 200");
+
+        ContactsMessageDto contacts = response.getBody().as(ContactsMessageDto.class);
+        int notFoundId = Arrays.stream(contacts.getContacts())
+                .mapToInt(c -> Integer.parseInt(c.getId()))
+                .max()
+                .orElse(0) + 1;
+
+        response = updateContactById(positiveContact(), notFoundId);
+        softAssert.assertEquals(response.getStatusCode(), 404, "Status code 404");
+        softAssert.assertEquals(response.jsonPath().getString("error"), "Contact not found");
+        softAssert.assertAll();
+    }
+
+    @Test
+    public void deleteContactIdNotFoundNegativeTest() {
+        Response response = getContacts();
+        softAssert.assertEquals(response.getStatusCode(), 200, "Get response code 200");
+
+        ContactsMessageDto contacts = response.getBody().as(ContactsMessageDto.class);
+        int notFoundId = Arrays.stream(contacts.getContacts())
+                .mapToInt(c -> Integer.parseInt(c.getId()))
+                .max()
+                .orElse(0) + 1;
+
+        response = deleteContactById(notFoundId);
+        softAssert.assertEquals(response.getStatusCode(), 404, "Status code 404");
+        softAssert.assertEquals(response.jsonPath().getString("error"), "Contact not found");
+        softAssert.assertAll();
     }
 }

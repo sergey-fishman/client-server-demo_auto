@@ -20,6 +20,17 @@ public class ContactsController implements BaseApi {
                 .response();
     }
 
+    public Response getContactsCustomMethod(String method) {
+        return given()
+                .when()
+                .request(method, BASE_URL + CONTACTS_URL)
+                .then()
+                .log().status()
+                .log().body()
+                .extract()
+                .response();
+    }
+
     public Response getContacts(String id) {
         return given()
                 .log().all()
@@ -59,6 +70,35 @@ public class ContactsController implements BaseApi {
                 .response();
     }
 
+    public Response createNewContactCustomContentType(Contact contact, ContentType contentType) {
+        return given()
+                .log().body()
+                .body(contact)
+                .contentType(contentType)
+                .when()
+                .post(BASE_URL + CONTACTS_URL)
+                .then()
+                .log().status()
+                .log().body()
+                .extract()
+                .response();
+    }
+
+    public Response updateContactCustomContentType(Contact contact, ContentType contentType, Integer id) {
+        return given()
+                .log().body()
+                .body(contact)
+                .contentType(contentType)
+                .when()
+                .queryParam("id", id)
+                .put(BASE_URL + CONTACTS_URL)
+                .then()
+                .log().status()
+                .log().body()
+                .extract()
+                .response();
+    }
+
     public Response createNewContactWithRawJson(String rawJson) {
         return given()
                 .log().body()
@@ -66,6 +106,21 @@ public class ContactsController implements BaseApi {
                 .contentType(ContentType.JSON)
                 .when()
                 .post(BASE_URL + CONTACTS_URL)
+                .then()
+                .log().status()
+                .log().body()
+                .extract()
+                .response();
+    }
+
+    public Response updateContactWithRawJson(String rawJson, Integer id) {
+        return given()
+                .log().body()
+                .body(rawJson)
+                .contentType(ContentType.JSON)
+                .when()
+                .queryParam("id", id)
+                .put(BASE_URL + CONTACTS_URL)
                 .then()
                 .log().status()
                 .log().body()
