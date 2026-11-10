@@ -45,6 +45,11 @@ public class ContactsPage extends BasePage {
         inputPhone.sendKeys(contact.getPhone_number());
     }
 
+    public boolean isInputPhoneInvalid() {
+        String attribute = inputPhone.getAttribute("class");
+        return attribute != null && attribute.contains("invalid");
+    }
+
     public void clickBtnSave() {
         btnSave.click();
     }

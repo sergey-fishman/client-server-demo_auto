@@ -1,0 +1,259 @@
+11:46:01.971 [Test worker] INFO  utils.TestNGListener - Gradle test start at Tue Nov 10 11:46:01 IST 2026
+11:46:03.481 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: a[href='contacts.html']; driver: ChromeDriver: chrome on windows (483d8c87ac1473aedd523a14dbf578a0)
+11:46:03.481 [Test worker] INFO  utils.WDListener - Before click element: [[ChromeDriver: chrome on windows (483d8c87ac1473aedd523a14dbf578a0)] -> css selector: a[href='contacts.html']]
+11:46:03.618 [Test worker] INFO  utils.TestNGListener - start test -> updateContactInvalidPhonesNegativeTest
+11:46:03.637 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: button[data-action='edit']; driver: ChromeDriver: chrome on windows (483d8c87ac1473aedd523a14dbf578a0)
+11:46:03.637 [Test worker] INFO  utils.WDListener - Before click element: [[ChromeDriver: chrome on windows (483d8c87ac1473aedd523a14dbf578a0)] -> css selector: button[data-action='edit']]
+11:46:03.699 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='text']; driver: ChromeDriver: chrome on windows (483d8c87ac1473aedd523a14dbf578a0)
+11:46:03.734 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='text']; driver: ChromeDriver: chrome on windows (483d8c87ac1473aedd523a14dbf578a0)
+11:46:03.788 [Test worker] INFO  utils.WDListener - User sendKeys for element: input, type: [Joe]
+11:46:03.807 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='tel']; driver: ChromeDriver: chrome on windows (483d8c87ac1473aedd523a14dbf578a0)
+11:46:03.844 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='tel']; driver: ChromeDriver: chrome on windows (483d8c87ac1473aedd523a14dbf578a0)
+11:46:03.882 [Test worker] INFO  utils.WDListener - User sendKeys for element: input, type: [8915147146]
+11:46:03.894 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: button[data-action='save']; driver: ChromeDriver: chrome on windows (483d8c87ac1473aedd523a14dbf578a0)
+11:46:03.894 [Test worker] INFO  utils.WDListener - Before click element: [[ChromeDriver: chrome on windows (483d8c87ac1473aedd523a14dbf578a0)] -> css selector: button[data-action='save']]
+11:46:03.942 [Test worker] INFO  utils.WDListener - After find: locator By.id: contactsMessage; driver: ChromeDriver: chrome on windows (483d8c87ac1473aedd523a14dbf578a0)
+11:46:03.949 [Test worker] INFO  utils.TestNGListener - test success -> updateContactInvalidPhonesNegativeTest
+11:46:03.949 [Test worker] INFO  utils.WDListener - Before quit driver: F19C2BF67EAA5F4970E9AB76E98A7A9E
+11:46:04.982 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: a[href='contacts.html']; driver: ChromeDriver: chrome on windows (647a2354e353a91374792237c10059c0)
+11:46:04.982 [Test worker] INFO  utils.WDListener - Before click element: [[ChromeDriver: chrome on windows (647a2354e353a91374792237c10059c0)] -> css selector: a[href='contacts.html']]
+11:46:05.202 [Test worker] INFO  utils.TestNGListener - start test -> updateContactInvalidPhonesNegativeTest
+11:46:05.217 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: button[data-action='edit']; driver: ChromeDriver: chrome on windows (647a2354e353a91374792237c10059c0)
+11:46:05.217 [Test worker] INFO  utils.WDListener - Before click element: [[ChromeDriver: chrome on windows (647a2354e353a91374792237c10059c0)] -> css selector: button[data-action='edit']]
+11:46:05.272 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='text']; driver: ChromeDriver: chrome on windows (647a2354e353a91374792237c10059c0)
+11:46:05.303 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='text']; driver: ChromeDriver: chrome on windows (647a2354e353a91374792237c10059c0)
+11:46:05.347 [Test worker] INFO  utils.WDListener - User sendKeys for element: input, type: [Joe]
+11:46:05.359 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='tel']; driver: ChromeDriver: chrome on windows (647a2354e353a91374792237c10059c0)
+11:46:05.392 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='tel']; driver: ChromeDriver: chrome on windows (647a2354e353a91374792237c10059c0)
+11:46:05.431 [Test worker] INFO  utils.WDListener - User sendKeys for element: input, type: [-7915147]
+11:46:05.443 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: button[data-action='save']; driver: ChromeDriver: chrome on windows (647a2354e353a91374792237c10059c0)
+11:46:05.443 [Test worker] INFO  utils.WDListener - Before click element: [[ChromeDriver: chrome on windows (647a2354e353a91374792237c10059c0)] -> css selector: button[data-action='save']]
+11:46:05.492 [Test worker] INFO  utils.WDListener - After find: locator By.id: contactsMessage; driver: ChromeDriver: chrome on windows (647a2354e353a91374792237c10059c0)
+11:46:05.498 [Test worker] INFO  utils.TestNGListener - test success -> updateContactInvalidPhonesNegativeTest
+11:46:05.498 [Test worker] INFO  utils.WDListener - Before quit driver: AC62CF3669F3C2DDC421E75C91DA3599
+11:46:06.454 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: a[href='contacts.html']; driver: ChromeDriver: chrome on windows (fb2653054f2308f7e8d912598e5ffb0a)
+11:46:06.454 [Test worker] INFO  utils.WDListener - Before click element: [[ChromeDriver: chrome on windows (fb2653054f2308f7e8d912598e5ffb0a)] -> css selector: a[href='contacts.html']]
+11:46:06.668 [Test worker] INFO  utils.TestNGListener - start test -> updateContactInvalidPhonesNegativeTest
+11:46:06.683 [Test worker] WARN  utils.WDListener - Exception: java.lang.reflect.InvocationTargetException
+11:46:06.714 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: button[data-action='edit']; driver: ChromeDriver: chrome on windows (fb2653054f2308f7e8d912598e5ffb0a)
+11:46:06.714 [Test worker] INFO  utils.WDListener - Before click element: [[ChromeDriver: chrome on windows (fb2653054f2308f7e8d912598e5ffb0a)] -> css selector: button[data-action='edit']]
+11:46:06.772 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='text']; driver: ChromeDriver: chrome on windows (fb2653054f2308f7e8d912598e5ffb0a)
+11:46:06.800 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='text']; driver: ChromeDriver: chrome on windows (fb2653054f2308f7e8d912598e5ffb0a)
+11:46:06.839 [Test worker] INFO  utils.WDListener - User sendKeys for element: input, type: [Joe]
+11:46:06.850 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='tel']; driver: ChromeDriver: chrome on windows (fb2653054f2308f7e8d912598e5ffb0a)
+11:46:06.878 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='tel']; driver: ChromeDriver: chrome on windows (fb2653054f2308f7e8d912598e5ffb0a)
+11:46:06.908 [Test worker] INFO  utils.WDListener - User sendKeys for element: input, type: [+0915147]
+11:46:06.925 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: button[data-action='save']; driver: ChromeDriver: chrome on windows (fb2653054f2308f7e8d912598e5ffb0a)
+11:46:06.925 [Test worker] INFO  utils.WDListener - Before click element: [[ChromeDriver: chrome on windows (fb2653054f2308f7e8d912598e5ffb0a)] -> css selector: button[data-action='save']]
+11:46:06.965 [Test worker] INFO  utils.WDListener - After find: locator By.id: contactsMessage; driver: ChromeDriver: chrome on windows (fb2653054f2308f7e8d912598e5ffb0a)
+11:46:06.970 [Test worker] INFO  utils.TestNGListener - test success -> updateContactInvalidPhonesNegativeTest
+11:46:06.970 [Test worker] INFO  utils.WDListener - Before quit driver: E85A6640CA3E04811DC0342C313F7DC3
+11:46:07.900 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: a[href='contacts.html']; driver: ChromeDriver: chrome on windows (78cf1e1a9e5614baac81dbc9a354875a)
+11:46:07.900 [Test worker] INFO  utils.WDListener - Before click element: [[ChromeDriver: chrome on windows (78cf1e1a9e5614baac81dbc9a354875a)] -> css selector: a[href='contacts.html']]
+11:46:08.112 [Test worker] INFO  utils.TestNGListener - start test -> updateContactInvalidPhonesNegativeTest
+11:46:08.124 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: button[data-action='edit']; driver: ChromeDriver: chrome on windows (78cf1e1a9e5614baac81dbc9a354875a)
+11:46:08.124 [Test worker] INFO  utils.WDListener - Before click element: [[ChromeDriver: chrome on windows (78cf1e1a9e5614baac81dbc9a354875a)] -> css selector: button[data-action='edit']]
+11:46:08.170 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='text']; driver: ChromeDriver: chrome on windows (78cf1e1a9e5614baac81dbc9a354875a)
+11:46:08.201 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='text']; driver: ChromeDriver: chrome on windows (78cf1e1a9e5614baac81dbc9a354875a)
+11:46:08.243 [Test worker] INFO  utils.WDListener - User sendKeys for element: input, type: [Joe]
+11:46:08.255 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='tel']; driver: ChromeDriver: chrome on windows (78cf1e1a9e5614baac81dbc9a354875a)
+11:46:08.276 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='tel']; driver: ChromeDriver: chrome on windows (78cf1e1a9e5614baac81dbc9a354875a)
+11:46:08.319 [Test worker] INFO  utils.WDListener - User sendKeys for element: input, type: [++7915147]
+11:46:08.329 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: button[data-action='save']; driver: ChromeDriver: chrome on windows (78cf1e1a9e5614baac81dbc9a354875a)
+11:46:08.329 [Test worker] INFO  utils.WDListener - Before click element: [[ChromeDriver: chrome on windows (78cf1e1a9e5614baac81dbc9a354875a)] -> css selector: button[data-action='save']]
+11:46:08.372 [Test worker] INFO  utils.WDListener - After find: locator By.id: contactsMessage; driver: ChromeDriver: chrome on windows (78cf1e1a9e5614baac81dbc9a354875a)
+11:46:08.380 [Test worker] INFO  utils.TestNGListener - test success -> updateContactInvalidPhonesNegativeTest
+11:46:08.380 [Test worker] INFO  utils.WDListener - Before quit driver: 588C30074AE3FAE62BD6ED37F4AF7A21
+11:46:09.317 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: a[href='contacts.html']; driver: ChromeDriver: chrome on windows (584343cca43639db4d704554c440ab97)
+11:46:09.317 [Test worker] INFO  utils.WDListener - Before click element: [[ChromeDriver: chrome on windows (584343cca43639db4d704554c440ab97)] -> css selector: a[href='contacts.html']]
+11:46:09.534 [Test worker] INFO  utils.TestNGListener - start test -> updateContactInvalidPhonesNegativeTest
+11:46:09.547 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: button[data-action='edit']; driver: ChromeDriver: chrome on windows (584343cca43639db4d704554c440ab97)
+11:46:09.547 [Test worker] INFO  utils.WDListener - Before click element: [[ChromeDriver: chrome on windows (584343cca43639db4d704554c440ab97)] -> css selector: button[data-action='edit']]
+11:46:09.597 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='text']; driver: ChromeDriver: chrome on windows (584343cca43639db4d704554c440ab97)
+11:46:09.628 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='text']; driver: ChromeDriver: chrome on windows (584343cca43639db4d704554c440ab97)
+11:46:09.668 [Test worker] INFO  utils.WDListener - User sendKeys for element: input, type: [Joe]
+11:46:09.678 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='tel']; driver: ChromeDriver: chrome on windows (584343cca43639db4d704554c440ab97)
+11:46:09.699 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='tel']; driver: ChromeDriver: chrome on windows (584343cca43639db4d704554c440ab97)
+11:46:09.746 [Test worker] INFO  utils.WDListener - User sendKeys for element: input, type: [+7 499 3950861]
+11:46:09.754 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: button[data-action='save']; driver: ChromeDriver: chrome on windows (584343cca43639db4d704554c440ab97)
+11:46:09.754 [Test worker] INFO  utils.WDListener - Before click element: [[ChromeDriver: chrome on windows (584343cca43639db4d704554c440ab97)] -> css selector: button[data-action='save']]
+11:46:09.799 [Test worker] INFO  utils.WDListener - After find: locator By.id: contactsMessage; driver: ChromeDriver: chrome on windows (584343cca43639db4d704554c440ab97)
+11:46:09.803 [Test worker] INFO  utils.TestNGListener - test success -> updateContactInvalidPhonesNegativeTest
+11:46:09.803 [Test worker] INFO  utils.WDListener - Before quit driver: 9E94A24F553036E4EAE678E0B30F8E4C
+11:46:10.743 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: a[href='contacts.html']; driver: ChromeDriver: chrome on windows (3033041f55235ec86aad83c1494e6944)
+11:46:10.743 [Test worker] INFO  utils.WDListener - Before click element: [[ChromeDriver: chrome on windows (3033041f55235ec86aad83c1494e6944)] -> css selector: a[href='contacts.html']]
+11:46:10.927 [Test worker] INFO  utils.TestNGListener - start test -> updateContactInvalidPhonesNegativeTest
+11:46:10.956 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: button[data-action='edit']; driver: ChromeDriver: chrome on windows (3033041f55235ec86aad83c1494e6944)
+11:46:10.957 [Test worker] INFO  utils.WDListener - Before click element: [[ChromeDriver: chrome on windows (3033041f55235ec86aad83c1494e6944)] -> css selector: button[data-action='edit']]
+11:46:11.006 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='text']; driver: ChromeDriver: chrome on windows (3033041f55235ec86aad83c1494e6944)
+11:46:11.039 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='text']; driver: ChromeDriver: chrome on windows (3033041f55235ec86aad83c1494e6944)
+11:46:11.086 [Test worker] INFO  utils.WDListener - User sendKeys for element: input, type: [Joe]
+11:46:11.097 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='tel']; driver: ChromeDriver: chrome on windows (3033041f55235ec86aad83c1494e6944)
+11:46:11.122 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='tel']; driver: ChromeDriver: chrome on windows (3033041f55235ec86aad83c1494e6944)
+11:46:11.163 [Test worker] INFO  utils.WDListener - User sendKeys for element: input, type: [+7-499-395-08-61]
+11:46:11.171 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: button[data-action='save']; driver: ChromeDriver: chrome on windows (3033041f55235ec86aad83c1494e6944)
+11:46:11.171 [Test worker] INFO  utils.WDListener - Before click element: [[ChromeDriver: chrome on windows (3033041f55235ec86aad83c1494e6944)] -> css selector: button[data-action='save']]
+11:46:11.212 [Test worker] INFO  utils.WDListener - After find: locator By.id: contactsMessage; driver: ChromeDriver: chrome on windows (3033041f55235ec86aad83c1494e6944)
+11:46:11.220 [Test worker] INFO  utils.TestNGListener - test success -> updateContactInvalidPhonesNegativeTest
+11:46:11.220 [Test worker] INFO  utils.WDListener - Before quit driver: 2840E9BDDE540EFBA475D1EF999D5B66
+11:46:12.150 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: a[href='contacts.html']; driver: ChromeDriver: chrome on windows (ed52959831cf89dfbca947e7c9da0647)
+11:46:12.150 [Test worker] INFO  utils.WDListener - Before click element: [[ChromeDriver: chrome on windows (ed52959831cf89dfbca947e7c9da0647)] -> css selector: a[href='contacts.html']]
+11:46:12.373 [Test worker] INFO  utils.TestNGListener - start test -> updateContactInvalidPhonesNegativeTest
+11:46:12.385 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: button[data-action='edit']; driver: ChromeDriver: chrome on windows (ed52959831cf89dfbca947e7c9da0647)
+11:46:12.385 [Test worker] INFO  utils.WDListener - Before click element: [[ChromeDriver: chrome on windows (ed52959831cf89dfbca947e7c9da0647)] -> css selector: button[data-action='edit']]
+11:46:12.436 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='text']; driver: ChromeDriver: chrome on windows (ed52959831cf89dfbca947e7c9da0647)
+11:46:12.466 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='text']; driver: ChromeDriver: chrome on windows (ed52959831cf89dfbca947e7c9da0647)
+11:46:12.508 [Test worker] INFO  utils.WDListener - User sendKeys for element: input, type: [Joe]
+11:46:12.518 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='tel']; driver: ChromeDriver: chrome on windows (ed52959831cf89dfbca947e7c9da0647)
+11:46:12.543 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='tel']; driver: ChromeDriver: chrome on windows (ed52959831cf89dfbca947e7c9da0647)
+11:46:12.584 [Test worker] INFO  utils.WDListener - User sendKeys for element: input, type: [+7(499)3950861]
+11:46:12.595 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: button[data-action='save']; driver: ChromeDriver: chrome on windows (ed52959831cf89dfbca947e7c9da0647)
+11:46:12.595 [Test worker] INFO  utils.WDListener - Before click element: [[ChromeDriver: chrome on windows (ed52959831cf89dfbca947e7c9da0647)] -> css selector: button[data-action='save']]
+11:46:12.636 [Test worker] INFO  utils.WDListener - After find: locator By.id: contactsMessage; driver: ChromeDriver: chrome on windows (ed52959831cf89dfbca947e7c9da0647)
+11:46:12.643 [Test worker] INFO  utils.TestNGListener - test success -> updateContactInvalidPhonesNegativeTest
+11:46:12.643 [Test worker] INFO  utils.WDListener - Before quit driver: 1C89B1C79135859390CA91E227822CDA
+11:46:13.584 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: a[href='contacts.html']; driver: ChromeDriver: chrome on windows (86b808b5048484253b12e93d6600e22e)
+11:46:13.584 [Test worker] INFO  utils.WDListener - Before click element: [[ChromeDriver: chrome on windows (86b808b5048484253b12e93d6600e22e)] -> css selector: a[href='contacts.html']]
+11:46:13.787 [Test worker] INFO  utils.TestNGListener - start test -> updateContactInvalidPhonesNegativeTest
+11:46:13.800 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: button[data-action='edit']; driver: ChromeDriver: chrome on windows (86b808b5048484253b12e93d6600e22e)
+11:46:13.801 [Test worker] INFO  utils.WDListener - Before click element: [[ChromeDriver: chrome on windows (86b808b5048484253b12e93d6600e22e)] -> css selector: button[data-action='edit']]
+11:46:13.852 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='text']; driver: ChromeDriver: chrome on windows (86b808b5048484253b12e93d6600e22e)
+11:46:13.884 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='text']; driver: ChromeDriver: chrome on windows (86b808b5048484253b12e93d6600e22e)
+11:46:13.926 [Test worker] INFO  utils.WDListener - User sendKeys for element: input, type: [Joe]
+11:46:13.935 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='tel']; driver: ChromeDriver: chrome on windows (86b808b5048484253b12e93d6600e22e)
+11:46:13.966 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='tel']; driver: ChromeDriver: chrome on windows (86b808b5048484253b12e93d6600e22e)
+11:46:14.009 [Test worker] INFO  utils.WDListener - User sendKeys for element: input, type: [+79151479151476a]
+11:46:14.018 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: button[data-action='save']; driver: ChromeDriver: chrome on windows (86b808b5048484253b12e93d6600e22e)
+11:46:14.019 [Test worker] INFO  utils.WDListener - Before click element: [[ChromeDriver: chrome on windows (86b808b5048484253b12e93d6600e22e)] -> css selector: button[data-action='save']]
+11:46:14.058 [Test worker] INFO  utils.WDListener - After find: locator By.id: contactsMessage; driver: ChromeDriver: chrome on windows (86b808b5048484253b12e93d6600e22e)
+11:46:14.066 [Test worker] INFO  utils.TestNGListener - test success -> updateContactInvalidPhonesNegativeTest
+11:46:14.067 [Test worker] INFO  utils.WDListener - Before quit driver: 7B9E93EF01DD2DBBCD60CF37EC923B74
+11:46:15.008 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: a[href='contacts.html']; driver: ChromeDriver: chrome on windows (ae7a3a6432efdf11556d54cde7ae999e)
+11:46:15.008 [Test worker] INFO  utils.WDListener - Before click element: [[ChromeDriver: chrome on windows (ae7a3a6432efdf11556d54cde7ae999e)] -> css selector: a[href='contacts.html']]
+11:46:15.195 [Test worker] INFO  utils.TestNGListener - start test -> updateContactInvalidPhonesNegativeTest
+11:46:15.206 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: button[data-action='edit']; driver: ChromeDriver: chrome on windows (ae7a3a6432efdf11556d54cde7ae999e)
+11:46:15.206 [Test worker] INFO  utils.WDListener - Before click element: [[ChromeDriver: chrome on windows (ae7a3a6432efdf11556d54cde7ae999e)] -> css selector: button[data-action='edit']]
+11:46:15.251 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='text']; driver: ChromeDriver: chrome on windows (ae7a3a6432efdf11556d54cde7ae999e)
+11:46:15.280 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='text']; driver: ChromeDriver: chrome on windows (ae7a3a6432efdf11556d54cde7ae999e)
+11:46:15.318 [Test worker] INFO  utils.WDListener - User sendKeys for element: input, type: [Joe]
+11:46:15.327 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='tel']; driver: ChromeDriver: chrome on windows (ae7a3a6432efdf11556d54cde7ae999e)
+11:46:15.352 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='tel']; driver: ChromeDriver: chrome on windows (ae7a3a6432efdf11556d54cde7ae999e)
+11:46:15.390 [Test worker] INFO  utils.WDListener - User sendKeys for element: input, type: [+7915147915147/6]
+11:46:15.400 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: button[data-action='save']; driver: ChromeDriver: chrome on windows (ae7a3a6432efdf11556d54cde7ae999e)
+11:46:15.400 [Test worker] INFO  utils.WDListener - Before click element: [[ChromeDriver: chrome on windows (ae7a3a6432efdf11556d54cde7ae999e)] -> css selector: button[data-action='save']]
+11:46:15.441 [Test worker] INFO  utils.WDListener - After find: locator By.id: contactsMessage; driver: ChromeDriver: chrome on windows (ae7a3a6432efdf11556d54cde7ae999e)
+11:46:15.449 [Test worker] INFO  utils.TestNGListener - test success -> updateContactInvalidPhonesNegativeTest
+11:46:15.449 [Test worker] INFO  utils.WDListener - Before quit driver: 73DE78083612E45713F0309E00D1CCDB
+11:46:16.371 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: a[href='contacts.html']; driver: ChromeDriver: chrome on windows (2657dedfd252e458529d4671c33c10f7)
+11:46:16.371 [Test worker] INFO  utils.WDListener - Before click element: [[ChromeDriver: chrome on windows (2657dedfd252e458529d4671c33c10f7)] -> css selector: a[href='contacts.html']]
+11:46:16.596 [Test worker] INFO  utils.TestNGListener - start test -> updateContactInvalidPhonesNegativeTest
+11:46:16.608 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: button[data-action='edit']; driver: ChromeDriver: chrome on windows (2657dedfd252e458529d4671c33c10f7)
+11:46:16.608 [Test worker] INFO  utils.WDListener - Before click element: [[ChromeDriver: chrome on windows (2657dedfd252e458529d4671c33c10f7)] -> css selector: button[data-action='edit']]
+11:46:16.656 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='text']; driver: ChromeDriver: chrome on windows (2657dedfd252e458529d4671c33c10f7)
+11:46:16.685 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='text']; driver: ChromeDriver: chrome on windows (2657dedfd252e458529d4671c33c10f7)
+11:46:16.720 [Test worker] INFO  utils.WDListener - User sendKeys for element: input, type: [Joe]
+11:46:16.736 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='tel']; driver: ChromeDriver: chrome on windows (2657dedfd252e458529d4671c33c10f7)
+11:46:16.760 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='tel']; driver: ChromeDriver: chrome on windows (2657dedfd252e458529d4671c33c10f7)
+11:46:16.799 [Test worker] INFO  utils.WDListener - User sendKeys for element: input, type: [8915147146]
+11:46:16.809 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: button[data-action='save']; driver: ChromeDriver: chrome on windows (2657dedfd252e458529d4671c33c10f7)
+11:46:16.809 [Test worker] INFO  utils.WDListener - Before click element: [[ChromeDriver: chrome on windows (2657dedfd252e458529d4671c33c10f7)] -> css selector: button[data-action='save']]
+11:46:16.851 [Test worker] INFO  utils.WDListener - After find: locator By.id: contactsMessage; driver: ChromeDriver: chrome on windows (2657dedfd252e458529d4671c33c10f7)
+11:46:16.859 [Test worker] INFO  utils.TestNGListener - test success -> updateContactInvalidPhonesNegativeTest
+11:46:16.859 [Test worker] INFO  utils.WDListener - Before quit driver: D2EABB6D3654315E15980062B6A14F35
+11:46:17.809 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: a[href='contacts.html']; driver: ChromeDriver: chrome on windows (95ec42627c75bc78b8b857b9bd469234)
+11:46:17.809 [Test worker] INFO  utils.WDListener - Before click element: [[ChromeDriver: chrome on windows (95ec42627c75bc78b8b857b9bd469234)] -> css selector: a[href='contacts.html']]
+11:46:18.003 [Test worker] INFO  utils.TestNGListener - start test -> updateContactInvalidPhonesNegativeTest
+11:46:18.034 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: button[data-action='edit']; driver: ChromeDriver: chrome on windows (95ec42627c75bc78b8b857b9bd469234)
+11:46:18.034 [Test worker] INFO  utils.WDListener - Before click element: [[ChromeDriver: chrome on windows (95ec42627c75bc78b8b857b9bd469234)] -> css selector: button[data-action='edit']]
+11:46:18.083 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='text']; driver: ChromeDriver: chrome on windows (95ec42627c75bc78b8b857b9bd469234)
+11:46:18.109 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='text']; driver: ChromeDriver: chrome on windows (95ec42627c75bc78b8b857b9bd469234)
+11:46:18.154 [Test worker] INFO  utils.WDListener - User sendKeys for element: input, type: [Joe]
+11:46:18.164 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='tel']; driver: ChromeDriver: chrome on windows (95ec42627c75bc78b8b857b9bd469234)
+11:46:18.195 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='tel']; driver: ChromeDriver: chrome on windows (95ec42627c75bc78b8b857b9bd469234)
+11:46:18.236 [Test worker] INFO  utils.WDListener - User sendKeys for element: input, type: [-7915147]
+11:46:18.246 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: button[data-action='save']; driver: ChromeDriver: chrome on windows (95ec42627c75bc78b8b857b9bd469234)
+11:46:18.246 [Test worker] INFO  utils.WDListener - Before click element: [[ChromeDriver: chrome on windows (95ec42627c75bc78b8b857b9bd469234)] -> css selector: button[data-action='save']]
+11:46:18.288 [Test worker] INFO  utils.WDListener - After find: locator By.id: contactsMessage; driver: ChromeDriver: chrome on windows (95ec42627c75bc78b8b857b9bd469234)
+11:46:18.296 [Test worker] INFO  utils.TestNGListener - test success -> updateContactInvalidPhonesNegativeTest
+11:46:18.297 [Test worker] INFO  utils.WDListener - Before quit driver: 7560ECD520EC386CD70D7B91D2CCA15D
+11:46:19.238 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: a[href='contacts.html']; driver: ChromeDriver: chrome on windows (a019aedd09a78cbdad3525e9bf56bdab)
+11:46:19.239 [Test worker] INFO  utils.WDListener - Before click element: [[ChromeDriver: chrome on windows (a019aedd09a78cbdad3525e9bf56bdab)] -> css selector: a[href='contacts.html']]
+11:46:19.427 [Test worker] INFO  utils.TestNGListener - start test -> updateContactInvalidPhonesNegativeTest
+11:46:19.439 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: button[data-action='edit']; driver: ChromeDriver: chrome on windows (a019aedd09a78cbdad3525e9bf56bdab)
+11:46:19.439 [Test worker] INFO  utils.WDListener - Before click element: [[ChromeDriver: chrome on windows (a019aedd09a78cbdad3525e9bf56bdab)] -> css selector: button[data-action='edit']]
+11:46:19.489 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='text']; driver: ChromeDriver: chrome on windows (a019aedd09a78cbdad3525e9bf56bdab)
+11:46:19.518 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='text']; driver: ChromeDriver: chrome on windows (a019aedd09a78cbdad3525e9bf56bdab)
+11:46:19.553 [Test worker] INFO  utils.WDListener - User sendKeys for element: input, type: [Joe]
+11:46:19.565 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='tel']; driver: ChromeDriver: chrome on windows (a019aedd09a78cbdad3525e9bf56bdab)
+11:46:19.591 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='tel']; driver: ChromeDriver: chrome on windows (a019aedd09a78cbdad3525e9bf56bdab)
+11:46:19.624 [Test worker] INFO  utils.WDListener - User sendKeys for element: input, type: [+0915147]
+11:46:19.637 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: button[data-action='save']; driver: ChromeDriver: chrome on windows (a019aedd09a78cbdad3525e9bf56bdab)
+11:46:19.637 [Test worker] INFO  utils.WDListener - Before click element: [[ChromeDriver: chrome on windows (a019aedd09a78cbdad3525e9bf56bdab)] -> css selector: button[data-action='save']]
+11:46:19.672 [Test worker] INFO  utils.WDListener - After find: locator By.id: contactsMessage; driver: ChromeDriver: chrome on windows (a019aedd09a78cbdad3525e9bf56bdab)
+11:46:19.685 [Test worker] INFO  utils.TestNGListener - test success -> updateContactInvalidPhonesNegativeTest
+11:46:19.687 [Test worker] INFO  utils.WDListener - Before quit driver: F3CB26D4C6A0D2A7316143336DE6EEF3
+11:46:20.615 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: a[href='contacts.html']; driver: ChromeDriver: chrome on windows (16c42873a64037d8567d5f4c83314ea6)
+11:46:20.618 [Test worker] INFO  utils.WDListener - Before click element: [[ChromeDriver: chrome on windows (16c42873a64037d8567d5f4c83314ea6)] -> css selector: a[href='contacts.html']]
+11:46:20.821 [Test worker] INFO  utils.TestNGListener - start test -> updateContactInvalidPhonesNegativeTest
+11:46:20.833 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: button[data-action='edit']; driver: ChromeDriver: chrome on windows (16c42873a64037d8567d5f4c83314ea6)
+11:46:20.833 [Test worker] INFO  utils.WDListener - Before click element: [[ChromeDriver: chrome on windows (16c42873a64037d8567d5f4c83314ea6)] -> css selector: button[data-action='edit']]
+11:46:20.881 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='text']; driver: ChromeDriver: chrome on windows (16c42873a64037d8567d5f4c83314ea6)
+11:46:20.911 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='text']; driver: ChromeDriver: chrome on windows (16c42873a64037d8567d5f4c83314ea6)
+11:46:20.951 [Test worker] INFO  utils.WDListener - User sendKeys for element: input, type: [Joe]
+11:46:20.961 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='tel']; driver: ChromeDriver: chrome on windows (16c42873a64037d8567d5f4c83314ea6)
+11:46:20.988 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='tel']; driver: ChromeDriver: chrome on windows (16c42873a64037d8567d5f4c83314ea6)
+11:46:21.026 [Test worker] INFO  utils.WDListener - User sendKeys for element: input, type: [++7915147]
+11:46:21.035 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: button[data-action='save']; driver: ChromeDriver: chrome on windows (16c42873a64037d8567d5f4c83314ea6)
+11:46:21.035 [Test worker] INFO  utils.WDListener - Before click element: [[ChromeDriver: chrome on windows (16c42873a64037d8567d5f4c83314ea6)] -> css selector: button[data-action='save']]
+11:46:21.076 [Test worker] INFO  utils.WDListener - After find: locator By.id: contactsMessage; driver: ChromeDriver: chrome on windows (16c42873a64037d8567d5f4c83314ea6)
+11:46:21.081 [Test worker] INFO  utils.TestNGListener - test success -> updateContactInvalidPhonesNegativeTest
+11:46:21.081 [Test worker] INFO  utils.WDListener - Before quit driver: EC332E69A87B515058F678D419B67CDD
+11:46:22.064 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: a[href='contacts.html']; driver: ChromeDriver: chrome on windows (d4f758eff1ec46c16d212451462e44ba)
+11:46:22.064 [Test worker] INFO  utils.WDListener - Before click element: [[ChromeDriver: chrome on windows (d4f758eff1ec46c16d212451462e44ba)] -> css selector: a[href='contacts.html']]
+11:46:22.239 [Test worker] INFO  utils.TestNGListener - start test -> updateContactInvalidPhonesNegativeTest
+11:46:22.270 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: button[data-action='edit']; driver: ChromeDriver: chrome on windows (d4f758eff1ec46c16d212451462e44ba)
+11:46:22.270 [Test worker] INFO  utils.WDListener - Before click element: [[ChromeDriver: chrome on windows (d4f758eff1ec46c16d212451462e44ba)] -> css selector: button[data-action='edit']]
+11:46:22.323 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='text']; driver: ChromeDriver: chrome on windows (d4f758eff1ec46c16d212451462e44ba)
+11:46:22.351 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='text']; driver: ChromeDriver: chrome on windows (d4f758eff1ec46c16d212451462e44ba)
+11:46:22.387 [Test worker] INFO  utils.WDListener - User sendKeys for element: input, type: [Joe]
+11:46:22.397 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='tel']; driver: ChromeDriver: chrome on windows (d4f758eff1ec46c16d212451462e44ba)
+11:46:22.423 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='tel']; driver: ChromeDriver: chrome on windows (d4f758eff1ec46c16d212451462e44ba)
+11:46:22.457 [Test worker] INFO  utils.WDListener - User sendKeys for element: input, type: [+7 499 3950861]
+11:46:22.470 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: button[data-action='save']; driver: ChromeDriver: chrome on windows (d4f758eff1ec46c16d212451462e44ba)
+11:46:22.470 [Test worker] INFO  utils.WDListener - Before click element: [[ChromeDriver: chrome on windows (d4f758eff1ec46c16d212451462e44ba)] -> css selector: button[data-action='save']]
+11:46:22.508 [Test worker] INFO  utils.WDListener - After find: locator By.id: contactsMessage; driver: ChromeDriver: chrome on windows (d4f758eff1ec46c16d212451462e44ba)
+11:46:22.516 [Test worker] INFO  utils.TestNGListener - test success -> updateContactInvalidPhonesNegativeTest
+11:46:22.517 [Test worker] INFO  utils.WDListener - Before quit driver: DB89CF5B201FA8D220407D8C60BB3A18
+11:46:23.428 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: a[href='contacts.html']; driver: ChromeDriver: chrome on windows (d21acaccc8c28997d8b80ca48b2c4945)
+11:46:23.428 [Test worker] INFO  utils.WDListener - Before click element: [[ChromeDriver: chrome on windows (d21acaccc8c28997d8b80ca48b2c4945)] -> css selector: a[href='contacts.html']]
+11:46:23.632 [Test worker] INFO  utils.TestNGListener - start test -> updateContactInvalidPhonesNegativeTest
+11:46:23.644 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: button[data-action='edit']; driver: ChromeDriver: chrome on windows (d21acaccc8c28997d8b80ca48b2c4945)
+11:46:23.644 [Test worker] INFO  utils.WDListener - Before click element: [[ChromeDriver: chrome on windows (d21acaccc8c28997d8b80ca48b2c4945)] -> css selector: button[data-action='edit']]
+11:46:23.693 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='text']; driver: ChromeDriver: chrome on windows (d21acaccc8c28997d8b80ca48b2c4945)
+11:46:23.721 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='text']; driver: ChromeDriver: chrome on windows (d21acaccc8c28997d8b80ca48b2c4945)
+11:46:23.757 [Test worker] INFO  utils.WDListener - User sendKeys for element: input, type: [Joe]
+11:46:23.766 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='tel']; driver: ChromeDriver: chrome on windows (d21acaccc8c28997d8b80ca48b2c4945)
+11:46:23.791 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='tel']; driver: ChromeDriver: chrome on windows (d21acaccc8c28997d8b80ca48b2c4945)
+11:46:23.831 [Test worker] INFO  utils.WDListener - User sendKeys for element: input, type: [+7-499-395-08-61]
+11:46:23.840 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: button[data-action='save']; driver: ChromeDriver: chrome on windows (d21acaccc8c28997d8b80ca48b2c4945)
+11:46:23.840 [Test worker] INFO  utils.WDListener - Before click element: [[ChromeDriver: chrome on windows (d21acaccc8c28997d8b80ca48b2c4945)] -> css selector: button[data-action='save']]
+11:46:23.878 [Test worker] INFO  utils.WDListener - After find: locator By.id: contactsMessage; driver: ChromeDriver: chrome on windows (d21acaccc8c28997d8b80ca48b2c4945)
+11:46:23.886 [Test worker] INFO  utils.TestNGListener - test success -> updateContactInvalidPhonesNegativeTest
+11:46:23.886 [Test worker] INFO  utils.WDListener - Before quit driver: C51C089F8E09CFEA306F71A1074ECD26
+11:46:24.860 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: a[href='contacts.html']; driver: ChromeDriver: chrome on windows (17fa67dc627a3c13142b3e1ed202c989)
+11:46:24.860 [Test worker] INFO  utils.WDListener - Before click element: [[ChromeDriver: chrome on windows (17fa67dc627a3c13142b3e1ed202c989)] -> css selector: a[href='contacts.html']]
+11:46:25.076 [Test worker] INFO  utils.TestNGListener - start test -> updateContactInvalidPhonesNegativeTest
+11:46:25.089 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: button[data-action='edit']; driver: ChromeDriver: chrome on windows (17fa67dc627a3c13142b3e1ed202c989)
+11:46:25.089 [Test worker] INFO  utils.WDListener - Before click element: [[ChromeDriver: chrome on windows (17fa67dc627a3c13142b3e1ed202c989)] -> css selector: button[data-action='edit']]
+11:46:25.144 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='text']; driver: ChromeDriver: chrome on windows (17fa67dc627a3c13142b3e1ed202c989)
+11:46:25.181 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='text']; driver: ChromeDriver: chrome on windows (17fa67dc627a3c13142b3e1ed202c989)
+11:46:25.225 [Test worker] INFO  utils.WDListener - User sendKeys for element: input, type: [Joe]
+11:46:25.234 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='tel']; driver: ChromeDriver: chrome on windows (17fa67dc627a3c13142b3e1ed202c989)
+11:46:25.268 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='tel']; driver: ChromeDriver: chrome on windows (17fa67dc627a3c13142b3e1ed202c989)
+11:46:25.321 [Test worker] INFO  utils.WDListener - User sendKeys for element: input, type: [+7(499)3950861]
+11:46:25.331 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: button[data-action='save']; driver: ChromeDriver: chrome on windows (17fa67dc627a3c13142b3e1ed202c989)
+11:46:25.331 [Test worker] INFO  utils.WDListener - Before click element: [[ChromeDriver: chrome on windows (17fa67dc627a3c13142b3e1ed202c989)] -> css selector: button[data-action='save']]
+11:46:25.371 [Test worker] INFO  utils.WDListener - After find: locator By.id: contactsMessage; driver: ChromeDriver: chrome on windows (17fa67dc627a3c13142b3e1ed202c989)
+11:46:25.379 [Test worker] INFO  utils.TestNGListener - test success -> updateContactInvalidPhonesNegativeTest
+11:46:25.379 [Test worker] INFO  utils.WDListener - Before quit driver: F9F44C59E50E8F026465902487EB50AD
+11:46:25.504 [Test worker] INFO  utils.TestNGListener - Gradle test finished at Tue Nov 10 11:46:25 IST 2026

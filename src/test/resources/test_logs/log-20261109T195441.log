@@ -1,0 +1,167 @@
+19:54:41.591 [Test worker] INFO  utils.TestNGListener - Gradle test start at Mon Nov 09 19:54:41 IST 2026
+19:54:54.746 [Test worker] INFO  utils.TestNGListener - start test -> createContactInvalidFieldsNegativeTest
+19:54:54.783 [Test worker] INFO  utils.WDListener - After find: locator By.id: fullName; driver: ChromeDriver: chrome on windows (d4eadbda86cf6b7ea81a3cf4d1c2d668)
+19:54:54.845 [Test worker] INFO  utils.WDListener - User sendKeys for element: input, type: ["Alexander]
+19:54:54.864 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='tel']; driver: ChromeDriver: chrome on windows (d4eadbda86cf6b7ea81a3cf4d1c2d668)
+19:54:54.919 [Test worker] INFO  utils.WDListener - User sendKeys for element: input, type: [ Trent"]
+19:54:54.932 [Test worker] INFO  utils.WDListener - After find: locator By.xpath: //button[@type='submit']; driver: ChromeDriver: chrome on windows (d4eadbda86cf6b7ea81a3cf4d1c2d668)
+19:54:54.932 [Test worker] INFO  utils.WDListener - Before click element: [[ChromeDriver: chrome on windows (d4eadbda86cf6b7ea81a3cf4d1c2d668)] -> xpath: //button[@type='submit']]
+19:54:55.019 [Test worker] INFO  utils.WDListener - After find: locator By.id: fullNamePopup; driver: ChromeDriver: chrome on windows (d4eadbda86cf6b7ea81a3cf4d1c2d668)
+19:54:55.056 [Test worker] INFO  utils.WDListener - After find: locator By.id: phoneNumberPopup; driver: ChromeDriver: chrome on windows (d4eadbda86cf6b7ea81a3cf4d1c2d668)
+19:54:55.064 [Test worker] INFO  utils.TestNGListener - test success -> createContactInvalidFieldsNegativeTest
+19:54:55.068 [Test worker] INFO  utils.WDListener - Before quit driver: 1EEFAC1BEF9871A46A3B77C4A3B430BE
+19:54:56.095 [Test worker] INFO  utils.TestNGListener - start test -> createContactInvalidFieldsNegativeTest
+19:54:56.150 [Test worker] INFO  utils.WDListener - After find: locator By.id: fullName; driver: ChromeDriver: chrome on windows (db6e5fb6e94a24ecdf16b33ba336dd62)
+19:54:56.235 [Test worker] INFO  utils.WDListener - User sendKeys for element: input, type: [Ilon Mask 2]
+19:54:56.300 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='tel']; driver: ChromeDriver: chrome on windows (db6e5fb6e94a24ecdf16b33ba336dd62)
+19:54:56.372 [Test worker] INFO  utils.WDListener - User sendKeys for element: input, type: [-7915147]
+19:54:56.391 [Test worker] INFO  utils.WDListener - After find: locator By.xpath: //button[@type='submit']; driver: ChromeDriver: chrome on windows (db6e5fb6e94a24ecdf16b33ba336dd62)
+19:54:56.391 [Test worker] INFO  utils.WDListener - Before click element: [[ChromeDriver: chrome on windows (db6e5fb6e94a24ecdf16b33ba336dd62)] -> xpath: //button[@type='submit']]
+19:54:56.444 [Test worker] INFO  utils.WDListener - After find: locator By.id: fullNamePopup; driver: ChromeDriver: chrome on windows (db6e5fb6e94a24ecdf16b33ba336dd62)
+19:54:56.460 [Test worker] INFO  utils.WDListener - After find: locator By.id: phoneNumberPopup; driver: ChromeDriver: chrome on windows (db6e5fb6e94a24ecdf16b33ba336dd62)
+19:54:56.460 [Test worker] INFO  utils.TestNGListener - test success -> createContactInvalidFieldsNegativeTest
+19:54:56.460 [Test worker] INFO  utils.WDListener - Before quit driver: A6C697B12A31942C2B6B3A456481A219
+19:54:57.452 [Test worker] INFO  utils.TestNGListener - start test -> createContactInvalidFieldsNegativeTest
+19:54:57.505 [Test worker] INFO  utils.WDListener - After find: locator By.id: fullName; driver: ChromeDriver: chrome on windows (93398deea7fb158f38ee21cb2bf3f010)
+19:54:57.594 [Test worker] INFO  utils.WDListener - User sendKeys for element: input, type: [Alexander T.]
+19:54:57.614 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='tel']; driver: ChromeDriver: chrome on windows (93398deea7fb158f38ee21cb2bf3f010)
+19:54:57.642 [Test worker] INFO  utils.WDListener - User sendKeys for element: input, type: [+0915147]
+19:54:57.654 [Test worker] INFO  utils.WDListener - After find: locator By.xpath: //button[@type='submit']; driver: ChromeDriver: chrome on windows (93398deea7fb158f38ee21cb2bf3f010)
+19:54:57.654 [Test worker] INFO  utils.WDListener - Before click element: [[ChromeDriver: chrome on windows (93398deea7fb158f38ee21cb2bf3f010)] -> xpath: //button[@type='submit']]
+19:54:57.721 [Test worker] INFO  utils.WDListener - After find: locator By.id: fullNamePopup; driver: ChromeDriver: chrome on windows (93398deea7fb158f38ee21cb2bf3f010)
+19:54:57.730 [Test worker] INFO  utils.WDListener - After find: locator By.id: phoneNumberPopup; driver: ChromeDriver: chrome on windows (93398deea7fb158f38ee21cb2bf3f010)
+19:54:57.745 [Test worker] INFO  utils.TestNGListener - test success -> createContactInvalidFieldsNegativeTest
+19:54:57.745 [Test worker] INFO  utils.WDListener - Before quit driver: 484CA1CBEF058C48E4192C58E9905FD3
+19:54:58.764 [Test worker] INFO  utils.TestNGListener - start test -> createContactInvalidFieldsNegativeTest
+19:54:58.809 [Test worker] INFO  utils.WDListener - After find: locator By.id: fullName; driver: ChromeDriver: chrome on windows (48ef3025d593d240ceccd034281c3851)
+19:54:58.898 [Test worker] INFO  utils.WDListener - User sendKeys for element: input, type: [Alexander/Trevor]
+19:54:58.920 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='tel']; driver: ChromeDriver: chrome on windows (48ef3025d593d240ceccd034281c3851)
+19:54:58.970 [Test worker] INFO  utils.WDListener - User sendKeys for element: input, type: [+7 499 395 08  61]
+19:54:58.984 [Test worker] INFO  utils.WDListener - After find: locator By.xpath: //button[@type='submit']; driver: ChromeDriver: chrome on windows (48ef3025d593d240ceccd034281c3851)
+19:54:58.984 [Test worker] INFO  utils.WDListener - Before click element: [[ChromeDriver: chrome on windows (48ef3025d593d240ceccd034281c3851)] -> xpath: //button[@type='submit']]
+19:54:59.050 [Test worker] INFO  utils.WDListener - After find: locator By.id: fullNamePopup; driver: ChromeDriver: chrome on windows (48ef3025d593d240ceccd034281c3851)
+19:54:59.056 [Test worker] INFO  utils.WDListener - After find: locator By.id: phoneNumberPopup; driver: ChromeDriver: chrome on windows (48ef3025d593d240ceccd034281c3851)
+19:54:59.072 [Test worker] INFO  utils.TestNGListener - test success -> createContactInvalidFieldsNegativeTest
+19:54:59.072 [Test worker] INFO  utils.WDListener - Before quit driver: 91D142BC3BA47A774A9A1A40C8D596A1
+19:54:59.996 [Test worker] INFO  utils.TestNGListener - start test -> createContactInvalidFieldsNegativeTest
+19:55:00.036 [Test worker] INFO  utils.WDListener - After find: locator By.id: fullName; driver: ChromeDriver: chrome on windows (3739dfa3ff957754c3daad74b1e32397)
+19:55:00.098 [Test worker] INFO  utils.WDListener - User sendKeys for element: input, type: [Alexander!]
+19:55:00.114 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='tel']; driver: ChromeDriver: chrome on windows (3739dfa3ff957754c3daad74b1e32397)
+19:55:00.146 [Test worker] INFO  utils.WDListener - User sendKeys for element: input, type: [+7(499)3950861]
+19:55:00.162 [Test worker] INFO  utils.WDListener - After find: locator By.xpath: //button[@type='submit']; driver: ChromeDriver: chrome on windows (3739dfa3ff957754c3daad74b1e32397)
+19:55:00.162 [Test worker] INFO  utils.WDListener - Before click element: [[ChromeDriver: chrome on windows (3739dfa3ff957754c3daad74b1e32397)] -> xpath: //button[@type='submit']]
+19:55:00.208 [Test worker] INFO  utils.WDListener - After find: locator By.id: fullNamePopup; driver: ChromeDriver: chrome on windows (3739dfa3ff957754c3daad74b1e32397)
+19:55:00.239 [Test worker] INFO  utils.WDListener - After find: locator By.id: phoneNumberPopup; driver: ChromeDriver: chrome on windows (3739dfa3ff957754c3daad74b1e32397)
+19:55:00.241 [Test worker] INFO  utils.TestNGListener - test success -> createContactInvalidFieldsNegativeTest
+19:55:00.241 [Test worker] INFO  utils.WDListener - Before quit driver: 7367F98D4D09C046BBD8D749108C6C8B
+19:55:01.146 [Test worker] INFO  utils.TestNGListener - start test -> createContactInvalidFieldsNegativeTest
+19:55:01.181 [Test worker] INFO  utils.WDListener - After find: locator By.id: fullName; driver: ChromeDriver: chrome on windows (6b2d4305ada2772cea5d6ff70d0ee820)
+19:55:01.258 [Test worker] INFO  utils.WDListener - User sendKeys for element: input, type: [Mi$ter]
+19:55:01.273 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='tel']; driver: ChromeDriver: chrome on windows (6b2d4305ada2772cea5d6ff70d0ee820)
+19:55:01.305 [Test worker] INFO  utils.WDListener - User sendKeys for element: input, type: [+79151479151476a]
+19:55:01.321 [Test worker] INFO  utils.WDListener - After find: locator By.xpath: //button[@type='submit']; driver: ChromeDriver: chrome on windows (6b2d4305ada2772cea5d6ff70d0ee820)
+19:55:01.321 [Test worker] INFO  utils.WDListener - Before click element: [[ChromeDriver: chrome on windows (6b2d4305ada2772cea5d6ff70d0ee820)] -> xpath: //button[@type='submit']]
+19:55:01.377 [Test worker] INFO  utils.WDListener - After find: locator By.id: fullNamePopup; driver: ChromeDriver: chrome on windows (6b2d4305ada2772cea5d6ff70d0ee820)
+19:55:01.393 [Test worker] INFO  utils.WDListener - After find: locator By.id: phoneNumberPopup; driver: ChromeDriver: chrome on windows (6b2d4305ada2772cea5d6ff70d0ee820)
+19:55:01.405 [Test worker] INFO  utils.TestNGListener - test success -> createContactInvalidFieldsNegativeTest
+19:55:01.407 [Test worker] INFO  utils.WDListener - Before quit driver: 8AA2E1FC5AC89B9C31BEE00AB4C3C2C6
+19:55:02.346 [Test worker] INFO  utils.TestNGListener - start test -> createContactInvalidFieldsNegativeTest
+19:55:02.370 [Test worker] INFO  utils.WDListener - After find: locator By.id: fullName; driver: ChromeDriver: chrome on windows (cb3b66310aa2e63d2574891aa95cd87d)
+19:55:02.451 [Test worker] INFO  utils.WDListener - User sendKeys for element: input, type: [<Alex>]
+19:55:02.466 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='tel']; driver: ChromeDriver: chrome on windows (cb3b66310aa2e63d2574891aa95cd87d)
+19:55:02.510 [Test worker] INFO  utils.WDListener - User sendKeys for element: input, type: [+7915147915147/6]
+19:55:02.526 [Test worker] INFO  utils.WDListener - After find: locator By.xpath: //button[@type='submit']; driver: ChromeDriver: chrome on windows (cb3b66310aa2e63d2574891aa95cd87d)
+19:55:02.526 [Test worker] INFO  utils.WDListener - Before click element: [[ChromeDriver: chrome on windows (cb3b66310aa2e63d2574891aa95cd87d)] -> xpath: //button[@type='submit']]
+19:55:02.587 [Test worker] INFO  utils.WDListener - After find: locator By.id: fullNamePopup; driver: ChromeDriver: chrome on windows (cb3b66310aa2e63d2574891aa95cd87d)
+19:55:02.598 [Test worker] INFO  utils.WDListener - After find: locator By.id: phoneNumberPopup; driver: ChromeDriver: chrome on windows (cb3b66310aa2e63d2574891aa95cd87d)
+19:55:02.598 [Test worker] INFO  utils.TestNGListener - test success -> createContactInvalidFieldsNegativeTest
+19:55:02.613 [Test worker] INFO  utils.WDListener - Before quit driver: 9E904E3A248BC2EC2C6BE423CB8DDF50
+19:55:03.531 [Test worker] INFO  utils.TestNGListener - start test -> createContactInvalidFieldsNegativeTest
+19:55:03.558 [Test worker] INFO  utils.WDListener - After find: locator By.id: fullName; driver: ChromeDriver: chrome on windows (bfe5651f2f5ffc5320e55e12248688b8)
+19:55:03.639 [Test worker] INFO  utils.WDListener - User sendKeys for element: input, type: [Alexander_Trent]
+19:55:03.654 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='tel']; driver: ChromeDriver: chrome on windows (bfe5651f2f5ffc5320e55e12248688b8)
+19:55:03.702 [Test worker] INFO  utils.WDListener - User sendKeys for element: input, type: [+791514]
+19:55:03.702 [Test worker] INFO  utils.WDListener - After find: locator By.xpath: //button[@type='submit']; driver: ChromeDriver: chrome on windows (bfe5651f2f5ffc5320e55e12248688b8)
+19:55:03.702 [Test worker] INFO  utils.WDListener - Before click element: [[ChromeDriver: chrome on windows (bfe5651f2f5ffc5320e55e12248688b8)] -> xpath: //button[@type='submit']]
+19:55:03.760 [Test worker] INFO  utils.WDListener - After find: locator By.id: fullNamePopup; driver: ChromeDriver: chrome on windows (bfe5651f2f5ffc5320e55e12248688b8)
+19:55:03.787 [Test worker] INFO  utils.WDListener - After find: locator By.id: phoneNumberPopup; driver: ChromeDriver: chrome on windows (bfe5651f2f5ffc5320e55e12248688b8)
+19:55:03.788 [Test worker] INFO  utils.TestNGListener - test success -> createContactInvalidFieldsNegativeTest
+19:55:03.788 [Test worker] INFO  utils.WDListener - Before quit driver: 373905AEC4FE8F86CF28B429A4B7DA50
+19:55:04.696 [Test worker] INFO  utils.TestNGListener - start test -> createContactInvalidFieldsNegativeTest
+19:55:04.739 [Test worker] INFO  utils.WDListener - After find: locator By.id: fullName; driver: ChromeDriver: chrome on windows (d706716e6e9b0b5f68b6d74e680390f4)
+19:55:04.841 [Test worker] INFO  utils.WDListener - User sendKeys for element: input, type: [Super 😂]
+19:55:04.851 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='tel']; driver: ChromeDriver: chrome on windows (d706716e6e9b0b5f68b6d74e680390f4)
+19:55:04.898 [Test worker] INFO  utils.WDListener - User sendKeys for element: input, type: [+7915147915147666]
+19:55:04.909 [Test worker] INFO  utils.WDListener - After find: locator By.xpath: //button[@type='submit']; driver: ChromeDriver: chrome on windows (d706716e6e9b0b5f68b6d74e680390f4)
+19:55:04.909 [Test worker] INFO  utils.WDListener - Before click element: [[ChromeDriver: chrome on windows (d706716e6e9b0b5f68b6d74e680390f4)] -> xpath: //button[@type='submit']]
+19:55:04.959 [Test worker] INFO  utils.WDListener - After find: locator By.id: fullNamePopup; driver: ChromeDriver: chrome on windows (d706716e6e9b0b5f68b6d74e680390f4)
+19:55:04.980 [Test worker] INFO  utils.WDListener - After find: locator By.id: phoneNumberPopup; driver: ChromeDriver: chrome on windows (d706716e6e9b0b5f68b6d74e680390f4)
+19:55:04.980 [Test worker] INFO  utils.TestNGListener - test success -> createContactInvalidFieldsNegativeTest
+19:55:04.980 [Test worker] INFO  utils.WDListener - Before quit driver: E550DE80037BC3CECB6FEC4827EA9FCA
+19:55:05.912 [Test worker] INFO  utils.TestNGListener - start test -> createContactInvalidFieldsNegativeTest
+19:55:05.954 [Test worker] INFO  utils.WDListener - After find: locator By.id: fullName; driver: ChromeDriver: chrome on windows (57857cfbc8cb9f491b80ebcffda02c68)
+19:55:06.031 [Test worker] INFO  utils.WDListener - User sendKeys for element: input, type: [-Mister T]
+19:55:06.053 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='tel']; driver: ChromeDriver: chrome on windows (57857cfbc8cb9f491b80ebcffda02c68)
+19:55:06.094 [Test worker] INFO  utils.WDListener - User sendKeys for element: input, type: [8915147146]
+19:55:06.108 [Test worker] INFO  utils.WDListener - After find: locator By.xpath: //button[@type='submit']; driver: ChromeDriver: chrome on windows (57857cfbc8cb9f491b80ebcffda02c68)
+19:55:06.108 [Test worker] INFO  utils.WDListener - Before click element: [[ChromeDriver: chrome on windows (57857cfbc8cb9f491b80ebcffda02c68)] -> xpath: //button[@type='submit']]
+19:55:06.157 [Test worker] INFO  utils.WDListener - After find: locator By.id: fullNamePopup; driver: ChromeDriver: chrome on windows (57857cfbc8cb9f491b80ebcffda02c68)
+19:55:06.168 [Test worker] INFO  utils.WDListener - After find: locator By.id: phoneNumberPopup; driver: ChromeDriver: chrome on windows (57857cfbc8cb9f491b80ebcffda02c68)
+19:55:06.183 [Test worker] INFO  utils.TestNGListener - test success -> createContactInvalidFieldsNegativeTest
+19:55:06.183 [Test worker] INFO  utils.WDListener - Before quit driver: 60FB9CE17ECE3DD08497C54AA34B41DC
+19:55:07.147 [Test worker] INFO  utils.TestNGListener - start test -> createContactInvalidFieldsNegativeTest
+19:55:07.168 [Test worker] INFO  utils.WDListener - After find: locator By.id: fullName; driver: ChromeDriver: chrome on windows (1751691a6c0290f3eb9b69e1e0691ea3)
+19:55:07.231 [Test worker] INFO  utils.WDListener - User sendKeys for element: input, type: [mister-]
+19:55:07.236 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='tel']; driver: ChromeDriver: chrome on windows (1751691a6c0290f3eb9b69e1e0691ea3)
+19:55:07.263 [Test worker] INFO  utils.WDListener - User sendKeys for element: input, type: [-7915147]
+19:55:07.288 [Test worker] INFO  utils.WDListener - After find: locator By.xpath: //button[@type='submit']; driver: ChromeDriver: chrome on windows (1751691a6c0290f3eb9b69e1e0691ea3)
+19:55:07.288 [Test worker] INFO  utils.WDListener - Before click element: [[ChromeDriver: chrome on windows (1751691a6c0290f3eb9b69e1e0691ea3)] -> xpath: //button[@type='submit']]
+19:55:07.325 [Test worker] INFO  utils.WDListener - After find: locator By.id: fullNamePopup; driver: ChromeDriver: chrome on windows (1751691a6c0290f3eb9b69e1e0691ea3)
+19:55:07.358 [Test worker] INFO  utils.WDListener - After find: locator By.id: phoneNumberPopup; driver: ChromeDriver: chrome on windows (1751691a6c0290f3eb9b69e1e0691ea3)
+19:55:07.366 [Test worker] INFO  utils.TestNGListener - test success -> createContactInvalidFieldsNegativeTest
+19:55:07.369 [Test worker] INFO  utils.WDListener - Before quit driver: 9103237EABDB5EF3F147C6782F40B507
+19:55:08.306 [Test worker] INFO  utils.TestNGListener - start test -> createContactInvalidFieldsNegativeTest
+19:55:08.341 [Test worker] INFO  utils.WDListener - After find: locator By.id: fullName; driver: ChromeDriver: chrome on windows (f4fe005ba884559c57748a11d4229fab)
+19:55:08.414 [Test worker] INFO  utils.WDListener - User sendKeys for element: input, type: [ 'Connor]
+19:55:08.420 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='tel']; driver: ChromeDriver: chrome on windows (f4fe005ba884559c57748a11d4229fab)
+19:55:08.459 [Test worker] INFO  utils.WDListener - User sendKeys for element: input, type: [+0915147]
+19:55:08.459 [Test worker] INFO  utils.WDListener - After find: locator By.xpath: //button[@type='submit']; driver: ChromeDriver: chrome on windows (f4fe005ba884559c57748a11d4229fab)
+19:55:08.475 [Test worker] INFO  utils.WDListener - Before click element: [[ChromeDriver: chrome on windows (f4fe005ba884559c57748a11d4229fab)] -> xpath: //button[@type='submit']]
+19:55:08.522 [Test worker] INFO  utils.WDListener - After find: locator By.id: fullNamePopup; driver: ChromeDriver: chrome on windows (f4fe005ba884559c57748a11d4229fab)
+19:55:08.547 [Test worker] INFO  utils.WDListener - After find: locator By.id: phoneNumberPopup; driver: ChromeDriver: chrome on windows (f4fe005ba884559c57748a11d4229fab)
+19:55:08.552 [Test worker] INFO  utils.TestNGListener - test success -> createContactInvalidFieldsNegativeTest
+19:55:08.552 [Test worker] INFO  utils.WDListener - Before quit driver: 7E148F6DEB68AFADD9EA373B3981E448
+19:55:09.496 [Test worker] INFO  utils.TestNGListener - start test -> createContactInvalidFieldsNegativeTest
+19:55:09.524 [Test worker] INFO  utils.WDListener - After find: locator By.id: fullName; driver: ChromeDriver: chrome on windows (5165b650bc4e1dcc4ed60a9b35678c58)
+19:55:09.599 [Test worker] INFO  utils.WDListener - User sendKeys for element: input, type: [Connor']
+19:55:09.615 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='tel']; driver: ChromeDriver: chrome on windows (5165b650bc4e1dcc4ed60a9b35678c58)
+19:55:09.654 [Test worker] INFO  utils.WDListener - User sendKeys for element: input, type: [+7 499 395 08  61]
+19:55:09.663 [Test worker] INFO  utils.WDListener - After find: locator By.xpath: //button[@type='submit']; driver: ChromeDriver: chrome on windows (5165b650bc4e1dcc4ed60a9b35678c58)
+19:55:09.663 [Test worker] INFO  utils.WDListener - Before click element: [[ChromeDriver: chrome on windows (5165b650bc4e1dcc4ed60a9b35678c58)] -> xpath: //button[@type='submit']]
+19:55:09.744 [Test worker] INFO  utils.WDListener - After find: locator By.id: fullNamePopup; driver: ChromeDriver: chrome on windows (5165b650bc4e1dcc4ed60a9b35678c58)
+19:55:09.768 [Test worker] INFO  utils.WDListener - After find: locator By.id: phoneNumberPopup; driver: ChromeDriver: chrome on windows (5165b650bc4e1dcc4ed60a9b35678c58)
+19:55:09.773 [Test worker] INFO  utils.TestNGListener - test success -> createContactInvalidFieldsNegativeTest
+19:55:09.775 [Test worker] INFO  utils.WDListener - Before quit driver: AA1FF2FD1F296713CCBF2EA0E80CE5E9
+19:55:10.765 [Test worker] INFO  utils.TestNGListener - start test -> createContactInvalidFieldsNegativeTest
+19:55:10.798 [Test worker] INFO  utils.WDListener - After find: locator By.id: fullName; driver: ChromeDriver: chrome on windows (dec0edec15e4200c732e86c3091154e0)
+19:55:10.858 [Test worker] INFO  utils.WDListener - User sendKeys for element: input, type: [Alexander  Trent]
+19:55:10.884 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='tel']; driver: ChromeDriver: chrome on windows (dec0edec15e4200c732e86c3091154e0)
+19:55:10.929 [Test worker] INFO  utils.WDListener - User sendKeys for element: input, type: [+7-499-395-08-61]
+19:55:10.942 [Test worker] INFO  utils.WDListener - After find: locator By.xpath: //button[@type='submit']; driver: ChromeDriver: chrome on windows (dec0edec15e4200c732e86c3091154e0)
+19:55:10.944 [Test worker] INFO  utils.WDListener - Before click element: [[ChromeDriver: chrome on windows (dec0edec15e4200c732e86c3091154e0)] -> xpath: //button[@type='submit']]
+19:55:10.985 [Test worker] INFO  utils.WDListener - After find: locator By.id: fullNamePopup; driver: ChromeDriver: chrome on windows (dec0edec15e4200c732e86c3091154e0)
+19:55:11.010 [Test worker] INFO  utils.WDListener - After find: locator By.id: phoneNumberPopup; driver: ChromeDriver: chrome on windows (dec0edec15e4200c732e86c3091154e0)
+19:55:11.017 [Test worker] INFO  utils.TestNGListener - test success -> createContactInvalidFieldsNegativeTest
+19:55:11.017 [Test worker] INFO  utils.WDListener - Before quit driver: 46278BA3823487414F82B1BF48457C82
+19:55:11.987 [Test worker] INFO  utils.TestNGListener - start test -> createContactInvalidFieldsNegativeTest
+19:55:12.013 [Test worker] INFO  utils.WDListener - After find: locator By.id: fullName; driver: ChromeDriver: chrome on windows (e77ab0c65e304ef0aec3e132b20f151b)
+19:55:12.097 [Test worker] INFO  utils.WDListener - User sendKeys for element: input, type: [Alexander--Trent]
+19:55:12.110 [Test worker] INFO  utils.WDListener - After find: locator By.cssSelector: input[type='tel']; driver: ChromeDriver: chrome on windows (e77ab0c65e304ef0aec3e132b20f151b)
+19:55:12.153 [Test worker] INFO  utils.WDListener - User sendKeys for element: input, type: [+7-499-395-08-62]
+19:55:12.153 [Test worker] INFO  utils.WDListener - After find: locator By.xpath: //button[@type='submit']; driver: ChromeDriver: chrome on windows (e77ab0c65e304ef0aec3e132b20f151b)
+19:55:12.153 [Test worker] INFO  utils.WDListener - Before click element: [[ChromeDriver: chrome on windows (e77ab0c65e304ef0aec3e132b20f151b)] -> xpath: //button[@type='submit']]
+19:55:12.223 [Test worker] INFO  utils.WDListener - After find: locator By.id: fullNamePopup; driver: ChromeDriver: chrome on windows (e77ab0c65e304ef0aec3e132b20f151b)
+19:55:12.245 [Test worker] INFO  utils.WDListener - After find: locator By.id: phoneNumberPopup; driver: ChromeDriver: chrome on windows (e77ab0c65e304ef0aec3e132b20f151b)
+19:55:12.247 [Test worker] INFO  utils.TestNGListener - test success -> createContactInvalidFieldsNegativeTest
+19:55:12.247 [Test worker] INFO  utils.WDListener - Before quit driver: 7267EB48972ACA9EC8DE415F506EA9C3
+19:55:12.385 [Test worker] INFO  utils.TestNGListener - Gradle test finished at Mon Nov 09 19:55:12 IST 2026

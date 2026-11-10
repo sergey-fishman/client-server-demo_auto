@@ -38,3 +38,13 @@ tasks.register('scope', Test){
         systemProperty 'browser', "${browser}"
     }
 }
+
+tasks.register('groups', Test) {
+    useTestNG(){
+        def groups = System.getProperty('groups')
+        if (groups != null){
+            includeGroups groups
+        }
+        suites 'src/test/resources/base.xml'
+    }
+}

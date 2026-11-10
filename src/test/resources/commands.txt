@@ -1,0 +1,8 @@
+./gradlew clean -> очистка build/reports
+./gradlew test -> запуск всех тестов
+./gradlew clean test -> запуск всех тестов
+./gradlew clean qa
+./gradlew clean scope
+./gradlew clean scope -Pbrowser=firefox
+./gradlew clean qa_suites -Dsuite=smoke_tests
+./gradlew clean groups -Dgroups=smoke

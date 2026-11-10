@@ -35,7 +35,8 @@ public class ContactsFormTests extends AppManager {
     }
 
     // TC-01 Contact creation with valid data w/ parameters
-    @Test(dataProvider = "dataProviderPositive", dataProviderClass = ContactDataProvider.class)
+    @Test(dataProvider = "dataProviderPositive", dataProviderClass = ContactDataProvider.class,
+            groups = {"regress"})
     public void createContactPositiveTestParameters(Contact contact) {
         mainPage.typeContactForm(contact);
         mainPage.clickBtnSubmit();
@@ -100,7 +101,7 @@ public class ContactsFormTests extends AppManager {
     }
 
     // TC-08 Contact creation with too short name (< 2)
-    @Test
+    @Test(groups = {"regress"})
     public void createContactTooShortNameNegativeTest() {
         Contact contact = Contact.builder()
                 .full_name("J").phone_number("+2015147666").build();
@@ -112,7 +113,7 @@ public class ContactsFormTests extends AppManager {
     }
 
     // TC-16 Contact creation with too long name (>60)
-    @Test
+    @Test(groups = {"regress"})
     public void createContactTooLongNameNegativeTest() {
         Contact contact = Contact.builder()
                 .full_name("AlexanderArnoldJeffersonOConnorMcGregorTheodorLincolnRoosevet")
@@ -125,7 +126,8 @@ public class ContactsFormTests extends AppManager {
     }
 
     // TC-09 Contact creation with invalid format all fields w/ parameters
-    @Test(dataProvider = "dataProviderNegative", dataProviderClass = ContactDataProvider.class)
+    @Test(dataProvider = "dataProviderNegative", dataProviderClass = ContactDataProvider.class,
+            groups = {"regress"})
     public void createContactInvalidFieldsNegativeTest(Contact contact) {
         mainPage.typeContactForm(contact);
         mainPage.clickBtnSubmit();
